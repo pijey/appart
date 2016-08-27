@@ -19,6 +19,13 @@ module.exports = function(environment) {
     }
   };
 
+  ENV['g-map'] = {
+    libraries: ['places', 'geometry'],
+    key: 'AIzaSyDP4WveMLJSZZvbO4BI_PkXYlMdMAQGDgo',
+    language: "fr",
+    protocol: 'https'
+  };
+  
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
@@ -42,15 +49,15 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.locationType = 'hash';
     ENV.baseUrl = '/appart/';
-
+    ENV['g-map'] = {
+      libraries: ['places', 'geometry'],
+      key: 'AIzaSyDZAsIMu-mcR4VtnpKmz4urQxGpEyPoMkI',
+      language: "fr",
+      protocol: 'https'
+    };
   }
 
-  ENV['g-map'] = {
-    libraries: ['places', 'geometry'],
-    key: 'AIzaSyDP4WveMLJSZZvbO4BI_PkXYlMdMAQGDgo',
-    language: "fr",
-    protocol: 'https'
-  };
+  
 
   return ENV;
 };
