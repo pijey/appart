@@ -4,6 +4,11 @@
     "ember": "~2.6.0",
     "ember-cli-shims": "0.1.1",
     "ember-cli-test-loader": "0.2.2",
-    "ember-qunit-notifications": "0.1.0"
+    "ember-qunit-notifications": "0.1.0",
+    "bootstrap": "^3.3.6",
+    "bootswatch": "^3.3.6",
+    "jQuery-rwdImageMaps": "*",
+    "font-awesome": "~4.6.0",
+    "jquery-validation": "~1.15.1"
   }
 }

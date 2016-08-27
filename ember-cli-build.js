@@ -5,6 +5,10 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
+    'ember-cli-bootswatch': {
+      'theme': 'sandstone', 
+      'excludeJS': false   
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated
@@ -19,6 +23,10 @@ module.exports = function(defaults) {
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
+
+  app.import("bower_components/jQuery-rwdImageMaps/jquery.rwdImageMaps.min.js");
+  app.import("bower_components/jquery-validation/dist/jquery.validate.min.js");
+  app.import("bower_components/jquery-validation/src/localization/messages_fr.js");
 
   return app.toTree();
 };

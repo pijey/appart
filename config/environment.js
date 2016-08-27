@@ -40,8 +40,17 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'hash';
+    ENV.baseUrl = '/appart/';
 
   }
+
+  ENV['g-map'] = {
+    libraries: ['places', 'geometry'],
+    key: 'AIzaSyDP4WveMLJSZZvbO4BI_PkXYlMdMAQGDgo',
+    language: "fr",
+    protocol: 'https'
+  };
 
   return ENV;
 };

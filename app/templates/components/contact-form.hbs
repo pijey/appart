@@ -1,0 +1,30 @@
+<div class="text-center" id="contact-me">
+	<h3>Nous contacter</h3>
+	<p>Vous avez des questions sur l'appartement ? Vous souhaitez le visiter ? Envoyez-nous un message et nous vous répondrons au plus vite.</p>
+</div>
+<h2 class="text-info text-center"><a href="tel:0679622848">{{fa-icon "phone"}}&nbsp;06 79 62 28 48</a></h2>
+<form class="contact-form" action="//formspree.io/pjvilloud-appart@yahoo.fr" method="post">
+	<div class="row">
+		<div class="form-group col-xs-12 col-sm-6 col-lg-3 col-lg-offset-3">
+			<input type="text" class="form-control" id="name" name="name" placeholder="Votre Nom" required>
+		</div>
+		<div class="form-group col-xs-12 col-sm-6 col-lg-3">
+			<input type="email" class="form-control" id="_replyto" name="_replyto" placeholder="Votre Email" required>
+			<input type="hidden" id="_cc" name="_cc" value="emilie.faure42@gmail.com" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-xs-12 col-sm-12 col-lg-6 col-lg-offset-3">
+			<input type="text" class="form-control" id="_subject" name="_subject" placeholder="Sujet" required>
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-xs-12 col-lg-6 col-lg-offset-3">
+			<textarea id="text" name="message" class="form-control" placeholder="Votre texte" rows="3" required></textarea>
+		</div>
+	</div>
+	<div class="row text-center">
+		<input type="text" name="_gotcha" class="hidden"/>
+		<button class="btn btn-info" value="Envoyer" type="submit"><i id="send-icon" class="fa fa-envelope"></i>&nbsp;Envoyer</button>
+	</div>
+</form>

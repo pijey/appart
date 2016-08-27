@@ -1,0 +1,161 @@
+<div class="map-canvas">
+	{{#g-map map=map lat=45.734768 lng=4.832214 zoom=15 as |context|}}
+		{{g-map-marker context lat=45.734768 lng=4.832214 icon="img/map/home-2.png" title="Appartement"}}
+		{{g-map-marker context marker=markers.subway.[0] lat=45.737155 lng=4.836968 icon="img/map/underground.png" title="Métro Jean-Jaurès"}}
+		{{g-map-marker context marker=markers.subway.[1] lat=45.731371 lng=4.833675 icon="img/map/underground.png" title="Métro Debourg"}}
+
+		{{g-map-marker context marker=markers.tram.[0] lat=45.731419 lng=4.829141 icon="img/map/tramway.png" title="Tram T1 ENS Lyon"}}
+		{{g-map-marker context marker=markers.tram.[1] lat=45.731371 lng=4.833675 icon="img/map/tramway.png" title="Tram T1 Debourg"}}
+
+		{{g-map-marker context marker=markers.bus.[0] lat=45.737155 lng=4.836968 icon="img/map/bus.png" title="Place Jean-Jaurès - Bus C7 et Zi6"}}
+		{{g-map-marker context marker=markers.bus.[1] lat=45.735697 lng=4.827550 icon="img/map/bus.png" title="Ayasse - Yves Farge - Bus C7 et C22"}}
+
+
+		{{g-map-marker context marker=markers.velov.[0] lat=45.734711 lng=4.835491 icon="img/map/cycling.png" title="Station Velo'v"}}
+		{{g-map-marker context marker=markers.velov.[1] lat=45.737511 lng=4.837457 icon="img/map/cycling.png" title="Station Velo'v"}}
+
+		{{g-map-marker context marker=markers.groceriesBio.[0] lat=45.737291 lng=4.832526 icon="img/map/grocery-bio.png" title="La Vie Claire"}}
+		{{g-map-marker context marker=markers.bakery.[0] lat=45.737325 lng=4.832373 icon="img/map/bread.png" title="Boulangerie Charpentier"}}
+		{{g-map-marker context marker=markers.bakery.[1] lat=45.734583 lng=4.835832 icon="img/map/bread.png" title="Boulangerie Delorme"}}
+
+		{{g-map-marker context marker=markers.supermarket.[0] lat=45.736252 lng=4.828673 icon="img/map/supermarket.png" title="Super U Gerland"}}
+		{{g-map-marker context marker=markers.supermarket.[1] lat=45.737393 lng=4.838220 icon="img/map/supermarket.png" title="Simply Market"}}
+		{{g-map-marker context marker=markers.supermarket.[2] lat=45.731431 lng=4.834430 icon="img/map/supermarket.png" title="Leader Price Express"}}
+		{{g-map-marker context marker=markers.supermarket.[3] lat=45.731116 lng=4.835688 icon="img/map/supermarket.png" title="Carrefour City"}}
+		{{g-map-marker context marker=markers.supermarket.[4] lat=45.737455 lng=4.837426 icon="img/map/fruits.png" title="Marché alimentaire du soir (jeudi de 15h à 20h)"}}
+
+		{{g-map-marker context marker=markers.restau.[0] lat=45.736439 lng=4.833501 icon="img/map/restaurant.png" title="Ma Cantine Chic"}}
+		{{g-map-marker context marker=markers.restau.[1] lat=45.736136 lng=4.833860 icon="img/map/pizzaria.png" title="Domino's Pizza Lyon 7 Sud"}}
+		{{g-map-marker context marker=markers.restau.[2] lat=45.735233 lng=4.837980 icon="img/map/restaurant.png" title="Bar restaurant l'Entracte"}}
+		{{g-map-marker context marker=markers.restau.[3] lat=45.736274 lng=4.833603 icon="img/map/restaurant.png" title="Tartines é nous"}}
+		{{g-map-marker context marker=markers.restau.[4] lat=45.736808 lng=4.833882 icon="img/map/restaurant.png" title="Tandoor & Wok"}}
+		{{g-map-marker context marker=markers.restau.[5] lat=45.729945 lng=4.833130 icon="img/map/restaurant.png" title="Jol's"}}
+
+		{{g-map-marker context marker=markers.banque.[0] lat=45.733182 lng=4.835244 icon="img/map/bank.png" title="Caisse d'Epargne Gerland"}}
+		{{g-map-marker context marker=markers.banque.[1] lat=45.735128 lng=4.836277 icon="img/map/bank.png" title="Banque Populaire Loire et Lyonnais"}}
+		{{g-map-marker context marker=markers.banque.[2] lat=45.736116 lng=4.839747 icon="img/map/bank.png" title="Banque Rhône-Alpes - Lyon Gerland"}}
+		{{g-map-marker context marker=markers.banque.[3] lat=45.736981 lng=4.837440 icon="img/map/bank.png" title="Crédit Mutuel Enseignant Sud Est C.M.E"}}
+		{{g-map-marker context marker=markers.banque.[4] lat=45.732450 lng=4.834586 icon="img/map/bank.png" title="BNP Paribas - Lyon Gerland Debourg"}}
+		{{g-map-marker context marker=markers.banque.[5] lat=45.731682 lng=4.834205 icon="img/map/bank.png" title="Crédit Mutuel Gerland"}}
+		{{g-map-marker context marker=markers.banque.[6] lat=45.731169 lng=4.830251 icon="img/map/bank.png" title="Crédit agricole Centre-est"}}
+		{{g-map-marker context marker=markers.banque.[7] lat=45.730132 lng=4.830310 icon="img/map/bank.png" title="Société Générale Gerland"}}
+		{{g-map-marker context marker=markers.banque.[8] lat=45.730601 lng=4.829681 icon="img/map/bank.png" title="La Banque Postal Gerland"}}
+
+		{{g-map-marker context marker=markers.assurance.[0] lat=45.735328 lng=4.835810 icon="img/map/administration.png" title="MAIF"}}
+
+		{{g-map-marker context marker=markers.poste.[0] lat=45.730601 lng=4.829681 icon="img/map/postal.png" title="La Poste"}}
+
+		{{g-map-marker context marker=markers.pressing.[0] lat=45.731038 lng=4.833632 icon="img/map/clothes.png" title="Pressing Gerland"}}
+		{{g-map-marker context marker=markers.pressing.[1] lat=45.734292 lng=4.829328 icon="img/map/clothes.png" title="Laverie Lyon Wash"}}
+
+		{{g-map-marker context marker=markers.cinema.[0] lat=45.740712 lng=4.817911 icon="img/map/cinema.png" title="UGC Confluence"}}
+		{{g-map-marker context marker=markers.cinema.[1] lat=45.747462 lng=4.835699 icon="img/map/cinema.png" title="Cinéma Comoedia"}}
+
+		{{g-map-marker context marker=markers.drugstore.[0] lat=45.734370 lng=4.835778 icon="img/map/drugstore.png" title="Pharmacie Bonglet-Djian"}}
+		{{g-map-marker context marker=markers.drugstore.[1] lat=45.735907 lng=4.829386 icon="img/map/drugstore.png" title="Pharmacie Bouvier"}}
+		{{g-map-marker context marker=markers.drugstore.[2] lat=45.735122 lng=4.828548 icon="img/map/drugstore.png" title="Pharmacie Quinet"}}
+
+		{{g-map-marker context marker=markers.doctor.[0] lat=45.736386 lng=4.829704 icon="img/map/medicine.png" title="Deslous Paoli Vincent"}}
+		{{g-map-marker context marker=markers.doctor.[1] lat=45.734918 lng=4.826915 icon="img/map/medicine.png" title="Frobert Alexandra"}}
+		{{g-map-marker context marker=markers.doctor.[2] lat=45.734274 lng=4.828288 icon="img/map/medicine.png" title="Danaoui Joêl"}}
+
+		{{g-map-marker context marker=markers.dentist.[0] lat=45.734379 lng=4.836377 icon="img/map/dentist.png" title="Levin Michel"}}
+		{{g-map-marker context marker=markers.dentist.[1] lat=45.736520 lng=4.836120 icon="img/map/dentist.png" title="Salino Samuel"}}
+		{{g-map-marker context marker=markers.dentist.[2] lat=45.736011 lng=4.836635 icon="img/map/dentist.png" title="Goddard Géraldine"}}
+
+		{{g-map-marker context marker=markers.kine.[0] lat=45.735270 lng=4.833406 icon="img/map/massage.png" title="Pajean Violaine et Germain Olivia"}}
+		{{g-map-marker context marker=markers.kine.[1] lat=45.734513 lng=4.828792 icon="img/map/massage.png" title="Pajean Kinés Debourg"}}
+
+		{{g-map-marker context marker=markers.biblio.[0] lat=45.731867 lng=4.833120 icon="img/map/book.png" title="Bibliothèque Diderot"}}
+
+		{{g-map-marker context marker=markers.creche.[0] lat=45.736721 lng=4.827641 icon="img/map/daycare.png" title="Crèche associative parentale Les p'tits bouts"}}
+		{{g-map-marker context marker=markers.creche.[1] lat=45.738084 lng=4.839786 icon="img/map/daycare.png" title="Gribouille Lyon Massimi"}}
+		{{g-map-marker context marker=markers.creche.[2] lat=45.736212 lng=4.833596 icon="img/map/daycare.png" title="Pôle petite enfance Simone de Beauvoir"}}
+
+		{{g-map-marker context marker=markers.ecole.[0] lat=45.734837 lng=4.835030 icon="img/map/school.png" title="Ecole internationale privée le Petit Monde"}}
+		{{g-map-marker context marker=markers.ecole.[1] lat=45.735057 lng=4.831032 icon="img/map/school.png" title="Ecole maternelle Claudius Berthelet"}}
+		{{g-map-marker context marker=markers.ecole.[2] lat=45.737511 lng=4.832496 icon="img/map/school.png" title="Ecole maternelle Notre Dame des Anges"}}
+
+		{{g-map-marker context marker=markers.parc.[0] lat=45.745023 lng=4.854597 icon="img/map/forest2.png" title="Parc Blandan"}}
+		{{g-map-marker context marker=markers.parc.[1] lat=45.722199 lng=4.823051 icon="img/map/forest2.png" title="Parc de Gerland"}}
+		{{g-map-marker context marker=markers.parc.[2] lat=45.734830 lng=4.822575 icon="img/map/forest2.png" title="Parc des Berges Nord"}}
+
+		{{g-map-marker context marker=markers.college.[0] lat=45.735114 lng=4.831852 icon="img/map/cramschool.png" title="Collège Gabriel Rosset"}}
+
+		{{g-map-marker context marker=markers.lycee.[0] lat=45.727933 lng=4.851826 icon="img/map/highschool.png" title="Lycée La Xavière"}}
+		{{g-map-marker context marker=markers.lycee.[1] lat=45.733137 lng=4.813012 icon="img/map/highschool.png" title="Lycée Assomption Bellevue"}}
+
+		{{g-map-marker context marker=markers.concert.[0] lat=45.730710 lng=4.827475 icon="img/map/music_live.png" title="Halle Tony Garnier"}}
+		{{g-map-marker context marker=markers.concert.[1] lat=45.728111 lng=4.831005 icon="img/map/music_live.png" title="Ninkasi Gerland"}}
+		{{g-map-marker context marker=markers.concert.[2] lat=45.738550 lng=4.832958 icon="img/map/music_live.png" title="Le Blogg"}}
+{{!-- 		{{#g-map-route context
+                travelMode='walking' strokeColor='red'
+                originLat=45.734768 originLng=4.832214 
+                destinationLat=45.737155 destinationLng=4.836968 as |routeContext|}}
+        {{/g-map-route}}
+        {{#g-map-route context
+                travelMode='walking' strokeColor='red'
+                originLat=45.734768 originLng=4.832214 
+                destinationLat=45.731419 destinationLng=4.829141 as |routeContext|}}
+        {{/g-map-route}} --}}
+	{{/g-map}}
+</div>
+<p></p>
+<div class="row">
+	<div class="col-sm-6 text-center"><a href="#" class="btn btn-default little-margin-bottom" {{action "showAllMarkers"}}>Afficher tous les lieux</a></div>
+	<div class="col-sm-6 text-center"><a href="#" class="btn btn-default little-margin-bottom" {{action "hideAllMarkers"}}>Cacher tous les lieux</a></div>
+	<div class="col-sm-2">
+		<h3 class="text-center">Santé</h3>
+		<ul class="list-group markers-list">
+			<li class="list-group-item active drugstore" {{action "toggleMarkers" "drugstore"}}><img src="img/map/drugstore.png" alt="">&nbsp;Pharmacie</li>
+			<li class="list-group-item active doctor" {{action "toggleMarkers" "doctor"}}><img src="img/map/medicine.png" alt="">&nbsp;Médecin</li>
+			<li class="list-group-item active dentist" {{action "toggleMarkers" "dentist"}}><img src="img/map/dentist.png" alt="">&nbsp;Dentiste</li>
+			<li class="list-group-item active kine" {{action "toggleMarkers" "kine"}}><img src="img/map/massage.png" alt="">&nbsp;Kinésithérapeute</li>
+		</ul>
+	</div>
+	<div class="col-sm-2">
+		<h3 class="text-center">Alimentaire</h3>
+		<ul class="list-group markers-list">
+			<li class="list-group-item active bakery" {{action "toggleMarkers" "bakery"}}><img src="img/map/bread.png" alt="">&nbsp;Boulangerie</li>
+			<li class="list-group-item active restau" {{action "toggleMarkers" "restau"}}><img src="img/map/restaurant.png" alt="">&nbsp;Restaurant</li>
+			<li class="list-group-item active groceriesBio" {{action "toggleMarkers" "groceriesBio"}}><img src="img/map/grocery-bio.png" alt="">&nbsp;Magasin Bio</li>
+			<li class="list-group-item active supermarket" {{action "toggleMarkers" "supermarket"}}><img src="img/map/supermarket.png" alt="">&nbsp;Grande surface, supérette</li>
+		</ul>
+	</div>
+	<div class="col-sm-2">
+		<h3 class="text-center">Education</h3>
+		<ul class="list-group markers-list">
+			<li class="list-group-item active creche" {{action "toggleMarkers" "creche"}}><img src="img/map/daycare.png" alt="">&nbsp;Crèche/Garderie</li>
+			<li class="list-group-item active ecole" {{action "toggleMarkers" "ecole"}}><img src="img/map/school.png" alt="">&nbsp;Ecole</li>
+			<li class="list-group-item active college" {{action "toggleMarkers" "college"}}><img src="img/map/cramschool.png" alt="">&nbsp;Collège</li>
+			<li class="list-group-item active lycee" {{action "toggleMarkers" "lycee"}}><img src="img/map/highschool.png" alt="">&nbsp;Lycée</li>
+		</ul>
+	</div>
+	<div class="col-sm-2">
+		<h3 class="text-center">Transport en commun</h3>
+		<ul class="list-group markers-list">
+			<li class="list-group-item active subway" {{action "toggleMarkers" "subway"}}><img src="img/map/underground.png" alt="">&nbsp;Métro</li>
+			<li class="list-group-item active tram" {{action "toggleMarkers" "tram"}}><img src="img/map/tramway.png" alt="">&nbsp;Tram</li>
+			<li class="list-group-item active bus" {{action "toggleMarkers" "bus"}}><img src="img/map/bus.png" alt="">&nbsp;Bus</li>
+			<li class="list-group-item active velov" {{action "toggleMarkers" "velov"}}><img src="img/map/cycling.png" alt="">&nbsp;Station Velo'v</li>
+		</ul>
+	</div>
+	<div class="col-sm-2">
+		<h3 class="text-center">Commodités</h3>
+		<ul class="list-group markers-list">
+			<li class="list-group-item active banque" {{action "toggleMarkers" "banque"}}><img src="img/map/bank.png" alt="">&nbsp;Banque</li>
+			<li class="list-group-item active assurance" {{action "toggleMarkers" "assurance"}}><img src="img/map/administration.png" alt="">&nbsp;Assurance</li>
+			<li class="list-group-item active poste" {{action "toggleMarkers" "poste"}}><img src="img/map/postal.png" alt="">&nbsp;Poste</li>
+			<li class="list-group-item active pressing" {{action "toggleMarkers" "pressing"}}><img src="img/map/clothes.png" alt="">&nbsp;Pressing/Laverie</li>
+		</ul>
+	</div>
+	<div class="col-sm-2">
+		<h3 class="text-center">Loisirs/Culture</h3>
+		<ul class="list-group markers-list">
+			<li class="list-group-item active cinema" {{action "toggleMarkers" "cinema"}}><img src="img/map/cinema.png" alt="">&nbsp;Cinéma</li>
+			<li class="list-group-item active concert" {{action "toggleMarkers" "concert"}}><img src="img/map/music_live.png" alt="">&nbsp;Salle de concert</li>
+			<li class="list-group-item active biblio" {{action "toggleMarkers" "biblio"}}><img src="img/map/book.png" alt="">&nbsp;Bibliothèque</li>
+			<li class="list-group-item active parc" {{action "toggleMarkers" "parc"}}><img src="img/map/forest2.png" alt="">&nbsp;Parc</li>
+		</ul>
+	</div>
+</div>

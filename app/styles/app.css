@@ -1,0 +1,61 @@
+body {
+	margin-top: 60px;
+}
+
+.little-margin-bottom {
+    margin-bottom: 10px;
+}
+
+.g-map-canvas {
+  height: 50vh;
+  padding-right: 0px;
+  margin-top: -20px;
+}
+
+ul.markers-list, .thumbnail {
+	cursor: pointer;
+}
+
+.text-danger {
+	color:	#d9534f !important;
+}
+
+.line-arrow.right {
+    border-top: 2px solid #a9a9a9;
+    border-right: 2px solid #a9a9a9;
+    transform: rotate(54deg) skew(20deg);
+    right: 20px;
+}
+.line-arrow {
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.line-arrow.left {
+    border-top: 2px solid #a9a9a9;
+    border-left: 2px solid #a9a9a9;
+    transform: rotate(-54deg) skew(-20deg);
+    left: 20px;
+}
+.line-arrow {
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.line-arrow.left:hover, .line-arrow.right:hover {
+    border-color: #444;
+}
