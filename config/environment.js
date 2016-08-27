@@ -51,7 +51,7 @@ module.exports = function(environment) {
     ENV.baseUrl = '/appart/';
     ENV['g-map'] = {
       libraries: ['places', 'geometry'],
-      key: 'AIzaSyDZAsIMu-mcR4VtnpKmz4urQxGpEyPoMkI',
+      key: ' AIzaSyAB0FQ_VT57zMr2ImpWDO5s-q8Ts-k5568',
       language: "fr",
       protocol: 'https'
     };
